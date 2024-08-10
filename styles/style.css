@@ -1,35 +1,78 @@
-
-:root{
+:root {
     --color: rgb(62, 62, 62);
     --base-font-size: 1rem;
     --large-font-size: 3rem;
     --primary-font-size: 1.125rem;
 }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
-/* navigation section styles start */
 
-nav{
-    width: 80%;
-    margin: 50px auto;
-    border: 2px solid red;
-    justify-content: space-between;
+/* navigation section styles start */
+header{
+    background: rgb(255, 249, 244);
 }
-nav ul li{
+
+nav {
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+nav ul li {
     color: rgb(60, 60, 60);
     cursor: pointer;
     list-style: none;
-    margin-right: 50px;
+    margin-right: 56px;
     font-weight: 600;
 }
-.nav-header-logo img{
+
+.nav-header-logo img {
     width: 290px;
+    cursor: pointer;
 }
+
 /* navigation section styles end */
+
+/*banner section styles start  */
+.banner-container   {
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.banner-content{
+    width: 50%;
+}
+.banner-content img{
+    width: 100%;
+}
+.banner-content-text {
+    width: 400px;
+    height: auto;
+    margin-right: 112px;
+}
+.banner-content-text h3{
+    font-size: 5rem;
+    font-weight: 700;
+    color: #363958;
+    line-height: 80px;
+    margin-bottom: 24px;
+    font-family: "Bebas Neue";
+}
+.banner-content-text span{
+    color: #FA804C;
+    font-family: "Bebas Neue";
+}
+.banner-content-text p{
+    margin-bottom: 10px;
+}
+/*banner section styles end  */
 
 /* shared styles start */
 .display-flex {
@@ -42,6 +85,20 @@ nav ul li{
     font-size: var(--base-font-size);
     line-height: 26px;
     color: var(--color);
+}
+
+.primary-btn img {
+    width: 24px;
+}
+.primary-btn {
+    border: 0;
+    outline: 0;
+    padding: 18px 33px;
+    border-radius: 10px;
+    background: linear-gradient(180.00deg, rgb(61, 79, 243), rgb(53, 67, 188) 100%);
+    gap: 9px;
+    color: #fff;
+    cursor: pointer;
 }
 
 /* shared styles end */
