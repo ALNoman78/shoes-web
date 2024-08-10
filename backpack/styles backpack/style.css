@@ -70,14 +70,14 @@ nav ul li {
     position: absolute;
     transform: translate(-50%, -50%);
     left: 74%;
-    top: 66%;
+    top: 45%;
     width: 450px;
 }
 #sc-img{
     position: absolute;
     transform: translate(-50% , -50%);
     left: 73%;
-    top: 61%;
+    top: 42%;
     z-index: 1;
     width: 520px;
 }
