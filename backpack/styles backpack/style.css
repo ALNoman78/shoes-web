@@ -90,14 +90,14 @@ nav ul li {
 .banner-content-text h3 {
     font-size: 5rem;
     font-weight: 700;
-    color: #363958;
+    color:  #76C27E;
     line-height: 80px;
     margin-bottom: 24px;
     font-family: "Bebas Neue";
 }
 
 .banner-content-text span {
-    color: #FA804C;
+    color: #363958;
     font-family: "Bebas Neue";
 }
 
@@ -181,7 +181,7 @@ nav ul li {
 }
 
 .casual-price-tag>p {
-    color: rgb(250, 128, 76);
+    color: #76C27E;
     font-size: var(--base-font-size);
     font-weight: 900;
     line-height: 42px
@@ -191,6 +191,7 @@ nav ul li {
     gap: 50px;
     justify-content: space-around;
     margin-top: 34px;
+    margin-bottom: 120px;
 }
 
 .casual-h3 {
