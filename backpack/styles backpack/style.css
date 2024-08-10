@@ -15,6 +15,7 @@
 /* navigation section styles start */
 header {
     background: rgb(255, 249, 244);
+    height: 750px;
 }
 
 nav {
@@ -29,18 +30,13 @@ nav ul {
     gap: 56px;
 }
 
-nav ul {
+nav ul li {
+    color: rgb(60, 60, 60);
+    cursor: pointer;
     list-style: none;
     font-weight: 600;
 }
-nav ul li a{
-    text-decoration: none;
-    color: rgb(60, 60, 60);
-}
-nav ul li a:hover{
-    transition: 0.3s;
-    
-}
+
 .nav-header-logo img {
     width: 290px;
     cursor: pointer;
@@ -53,8 +49,8 @@ nav ul li a:hover{
     width: 80%;
     margin: 0 auto;
     justify-content: space-between;
+    margin-top: 120px;
 }
-
 .banner-content {
     width: 50%;
 }
@@ -62,7 +58,29 @@ nav ul li a:hover{
 .banner-content img {
     width: 100%;
 }
-
+.banner-content{
+    width: 100%;
+}
+.banner-image-first{
+    position: relative;
+    z-index: 2;
+}
+#first-img{
+    width: 510px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 74%;
+    top: 66%;
+    width: 450px;
+}
+#sc-img{
+    position: absolute;
+    transform: translate(-50% , -50%);
+    left: 73%;
+    top: 61%;
+    z-index: 1;
+    width: 520px;
+}
 .banner-content-text {
     width: 400px;
     height: auto;
@@ -85,6 +103,7 @@ nav ul li a:hover{
 
 .banner-content-text p {
     margin-bottom: 10px;
+    font-size: 1rem;
 }
 
 /*banner section styles end  */
@@ -111,7 +130,7 @@ nav ul li a:hover{
     outline: 0;
     padding: 13px 29px;
     border-radius: 10px;
-    background: linear-gradient(180.00deg, rgb(61, 79, 243), rgb(53, 67, 188) 100%);
+    background: #2A1E59;
     gap: 9px;
     color: #fff;
     cursor: pointer;
