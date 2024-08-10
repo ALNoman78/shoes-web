@@ -1,7 +1,10 @@
 @media screen and (max-width : 576px) {
 
     nav ul,
-    .banner-container {
+    .banner-container,
+    .display-casual-content-items,
+    .footer-container,
+    .footer-item {
         flex-direction: column;
     }
     nav{
@@ -19,7 +22,8 @@
         display: none;
     }
 
-    .banner-content {
+    .banner-content,
+    .display-casual-container {
         width: 100%;
     }
 
@@ -52,5 +56,28 @@
     }
     .hambar{
         margin-bottom: 30px;
+    }
+    .casual-h3{
+        text-align: center;
+    }
+    .footer-content-image{
+        width: 100%;
+    }
+    .footer-content-image-2 img{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .footer-content-image{
+        display: none;
+    }
+    .footer-container {
+        width: 100%;
+        padding: 20px;
+    }
+    .footer-item{
+        text-align: center;
+    }
+    .footer-content-image-2{
+        display: block;
     }
 }
