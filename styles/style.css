@@ -1,6 +1,6 @@
 :root {
     --color: rgb(62, 62, 62);
-    --base-font-size: 1rem;
+    --base-font-size: 2rem;
     --large-font-size: 3rem;
     --primary-font-size: 1.125rem;
 }
@@ -13,7 +13,7 @@
 }
 
 /* navigation section styles start */
-header{
+header {
     background: rgb(255, 249, 244);
 }
 
@@ -24,9 +24,11 @@ nav {
     padding-top: 50px;
     margin-bottom: 50px;
 }
-nav ul{
+
+nav ul {
     gap: 56px;
 }
+
 nav ul li {
     color: rgb(60, 60, 60);
     cursor: pointer;
@@ -42,23 +44,27 @@ nav ul li {
 /* navigation section styles end */
 
 /*banner section styles start  */
-.banner-container   {
+.banner-container {
     width: 80%;
     margin: 0 auto;
     justify-content: space-between;
 }
-.banner-content{
+
+.banner-content {
     width: 50%;
 }
-.banner-content img{
+
+.banner-content img {
     width: 100%;
 }
+
 .banner-content-text {
     width: 400px;
     height: auto;
     margin-right: 112px;
 }
-.banner-content-text h3{
+
+.banner-content-text h3 {
     font-size: 5rem;
     font-weight: 700;
     color: #363958;
@@ -66,13 +72,16 @@ nav ul li {
     margin-bottom: 24px;
     font-family: "Bebas Neue";
 }
-.banner-content-text span{
+
+.banner-content-text span {
     color: #FA804C;
     font-family: "Bebas Neue";
 }
-.banner-content-text p{
+
+.banner-content-text p {
     margin-bottom: 10px;
 }
+
 /*banner section styles end  */
 
 /* shared styles start */
@@ -91,6 +100,7 @@ nav ul li {
 .primary-btn img {
     width: 24px;
 }
+
 .primary-btn {
     border: 0;
     outline: 0;
@@ -101,7 +111,59 @@ nav ul li {
     color: #fff;
     cursor: pointer;
 }
-.display-none{
+
+.display-none {
     display: none;
 }
+
+.color-light-gray {
+    color: #3E3E3E;
+    margin-bottom: 13px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
 /* shared styles end */
+
+/* casual shoes container styles start */
+.display-casual-container {
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid steelblue;
+}
+
+.casual-item {
+    max-width: 370px;
+    max-height: 550px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.casual-item>h3 {
+    font-size: var(--primary-font-size);
+    margin-bottom: 14px;
+}
+
+.casual-item>img {
+    width: 100%;
+    background: rgb(241, 241, 241);
+    border-radius: 20px;
+}
+
+.casual-price-tag {
+    justify-content: space-between;
+}
+
+.casual-price-tag>p {
+    color: rgb(250, 128, 76);
+    font-size: var(--base-font-size);
+    font-weight: 900;
+    line-height: 42px
+}
+.display-casual-content-items{
+    gap: 50px;
+    justify-content: space-around;
+}
+/* casual shoes container styles end */
