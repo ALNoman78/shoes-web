@@ -1,0 +1,56 @@
+@media screen and (max-width : 576px) {
+
+    nav ul,
+    .banner-container {
+        flex-direction: column;
+    }
+    nav{
+        margin-bottom: 0;
+    }
+    .banner-container{
+        width: 90%;
+    }
+    .banner-content,
+    .hambar {
+        display: block;
+    }
+
+    #first-img {
+        display: none;
+    }
+
+    .banner-content {
+        width: 100%;
+    }
+
+    .banner-content img {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+
+    .banner-content-text {
+        width: auto;
+        margin: 20px;
+        margin-right: 0;
+    }
+
+    .banner-content-text h3 {
+        font-size: 3.2rem;
+    }
+
+    .primary-btn {
+        padding: 9px 16px;
+    }
+
+    .nav-header-logo img {
+        width: 70%;
+        margin-bottom: 30px;
+    }
+
+    .navbar {
+        display: none;
+    }
+    .hambar{
+        margin-bottom: 30px;
+    }
+}
